@@ -1,0 +1,13 @@
+.Theater {
+  cursor: pointer;
+  transition: all ease-in-out 300ms;
+}
+
+.Theater:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.Theater img {
+  object-fit: cover;
+}

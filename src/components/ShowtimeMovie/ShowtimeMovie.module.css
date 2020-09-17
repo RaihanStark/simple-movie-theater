@@ -1,0 +1,43 @@
+.ShowtimeMovie {
+  background-color: #ddd;
+  border: 0;
+
+  margin-bottom: 1em;
+  transition: all ease-in-out 300ms;
+}
+
+.ShowtimeMovie:hover {
+  transform: scale(1.01);
+  cursor: pointer;
+}
+
+.ShowtimeMovie h5 {
+  font-family: "Merriweather", sans-serif;
+}
+
+.ShowtimeMovie img {
+  border-radius: 0.4rem;
+  object-fit: cover;
+
+  min-width: 100px;
+}
+
+.ShowtimeMovie button {
+  background-color: #373f41;
+  color: white;
+  border-style: none;
+  padding: 0.5em 1em;
+  border-radius: 0.4em;
+
+  transition: all ease-in-out 200ms;
+}
+
+.ShowtimeMovie button:hover {
+  background-color: #297373;
+}
+
+@media (min-width: 991.98px) {
+  .ShowtimeMovie img {
+    min-width: 250px;
+  }
+}
